@@ -22,4 +22,11 @@ public class SimpleDemoApplication {
         log.info(helloWorld);
         return helloWorld;
     }
+    
+    @GetMapping("/test")
+    public String d() {
+        String test = "test!";
+        log.info(test);
+        return test;
+    }
 }
