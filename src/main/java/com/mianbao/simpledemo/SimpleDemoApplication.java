@@ -23,9 +23,9 @@ public class SimpleDemoApplication {
         return helloWorld;
     }
     
-    @GetMapping("/hello7")
+    @GetMapping("/hello8")
     public String hello1() {
-        String hello1 = "hello7";
+        String hello1 = "hello8";
         log.info(hello1);
         return hello1;
     }
