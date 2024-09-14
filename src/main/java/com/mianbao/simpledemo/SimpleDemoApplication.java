@@ -17,16 +17,16 @@ public class SimpleDemoApplication {
     }
     
     @GetMapping("/hello")
-    public String f() {
+    public String hello() {
         String helloWorld = "Hello World!";
         log.info(helloWorld);
         return helloWorld;
     }
     
-    @GetMapping("/test")
-    public String d() {
-        String test = "test!";
-        log.info(test);
-        return test;
+    @GetMapping("/hello1")
+    public String hello1() {
+        String hello1 = "hello1";
+        log.info(hello1);
+        return hello1;
     }
 }
